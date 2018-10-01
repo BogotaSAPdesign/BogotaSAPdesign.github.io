@@ -21,6 +21,21 @@
   src: url('../fonts/72-Italic.ttf') format("truetype");
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.sticky .rectangle5{
+
+  position: fixed;
+  top: 0;
+
+}
+
+
+
 .a4componentdevelop {
   width               : 100%;
   min-width           : 1440px;
@@ -676,7 +691,7 @@ div {
   line-height         : 24.0px;
 }
 .a4componentdevelop .divclassmodalde .span1 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -688,13 +703,13 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span5 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span6 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span7 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span8 {
   color               : rgba(0, 0, 0, 1.0);
@@ -706,13 +721,13 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span11 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span12 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span13 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span14 {
   color               : rgba(0, 0, 0, 1.0);
@@ -733,13 +748,13 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span20 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span21 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span22 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span23 {
   color               : rgba(0, 0, 0, 1.0);
@@ -751,13 +766,13 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span26 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span27 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span28 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span29 {
   color               : rgba(0, 0, 0, 1.0);
@@ -769,19 +784,19 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span32 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span33 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span34 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span35 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span36 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span37 {
   color               : rgba(0, 0, 0, 1.0);
@@ -802,13 +817,13 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span43 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span44 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span45 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span46 {
   color               : rgba(0, 0, 0, 1.0);
@@ -820,67 +835,67 @@ div {
   color               : rgba(216, 0, 48, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span49 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span50 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span51 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span52 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span53 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span54 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span55 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span56 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span57 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span58 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span59 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span60 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span61 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span62 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span63 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span64 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span65 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span66 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span67 {
-  
+
 }
 .a4componentdevelop .divclassmodalde .span68 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .a4componentdevelop .divclassmodalde .span69 {
-  
+
 }
 .a4componentdevelop .rectangle8copy20 {
   background-color    : rgba(215, 215, 215, 0.3);
@@ -5033,13 +5048,13 @@ div {
   line-height         : 24.0px;
 }
 .a4componentdevelop .youwanttodisplay .span1 {
-  
+
 }
 .a4componentdevelop .youwanttodisplay .span2 {
   text-decoration     : underline;
 }
 .a4componentdevelop .youwanttodisplay .span3 {
-  
+
 }
 .a4componentdevelop .youwanttodisplaycopy {
   background-color    : rgba(255,255,255,0.0);
@@ -9465,13 +9480,13 @@ div {
   line-height         : 22.0px;
 }
 .a4componentdevelop .group8 .group .modalcontent .span1 {
-  
+
 }
 .a4componentdevelop .group8 .group .modalcontent .span2 {
   font-family         : "72-Bold", Helvetica, Arial, serif;
 }
 .a4componentdevelop .group8 .group .modalcontent .span3 {
-  
+
 }
 .a4componentdevelop .group8 .group .iconclose {
   background-color    : rgba(255,255,255,0.0);
@@ -9877,12 +9892,13 @@ div {
   top                 : 0px;
   height              : 83px;
   width               : 1440px;
-  position            : absolute;
+  position            : fixed;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  z-index: 100;
 }
 .a4componentdevelop .group14 .group2copy {
   background-color    : rgba(255,255,255,0.0);
@@ -9961,7 +9977,7 @@ div {
   top                 : 0px;
   height              : 83px;
   width               : 1440px;
-  position            : absolute;
+  position: fixed;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -9972,7 +9988,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28px;
   height              : auto;
-  width               : auto;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 35px;
@@ -9986,7 +10002,7 @@ div {
   line-height         : 28.0px;
 }
 .a4componentdevelop .group14 .sapfioridesign .span1 {
-  
+
 }
 .a4componentdevelop .group14 .sapfioridesign .span2 {
   font-family         : "72-Light", Helvetica, Arial, serif;
@@ -10590,19 +10606,19 @@ div {
   line-height         : 22.0px;
 }
 .a4componentdevelop .group3copy2 .shellfooter .u6caaicpu590709046015u53f72 .span1 {
-  
+
 }
 .a4componentdevelop .group3copy2 .shellfooter .u6caaicpu590709046015u53f72 .span2 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a4componentdevelop .group3copy2 .shellfooter .u6caaicpu590709046015u53f72 .span3 {
-  
+
 }
 .a4componentdevelop .group3copy2 .shellfooter .u6caaicpu590709046015u53f72 .span4 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a4componentdevelop .group3copy2 .shellfooter .u6caaicpu590709046015u53f72 .span5 {
-  
+
 }
 .a4componentdevelop .group3copy2 .shellfooter .u6caaicpu590709046015u53f72 .span6 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
@@ -10737,56 +10753,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

@@ -21,6 +21,20 @@
   src: url('../fonts/72-Italic.ttf') format("truetype");
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.hide{
+   opacity: 0;
+}
+
+.a3librarycopy .group14 .myHeader{
+  position: fixed;
+}
+
 .a3librarycopy {
   width               : 100%;
   min-width           : 1440px;
@@ -1509,7 +1523,6 @@ div {
   top                 : 0px;
   height              : 83px;
   width               : 1440px;
-  position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -1520,7 +1533,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28px;
   height              : auto;
-  width               : auto;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 35px;
@@ -1534,7 +1547,7 @@ div {
   line-height         : 28.0px;
 }
 .a3librarycopy .group14 .sapfioridesign .span1 {
-  
+
 }
 .a3librarycopy .group14 .sapfioridesign .span2 {
   font-family         : "72-Light", Helvetica, Arial, serif;
@@ -1669,19 +1682,19 @@ div {
   line-height         : 22.0px;
 }
 .a3librarycopy .group3 .shellfooter .u6caaicpu590709046015u53f72 .span1 {
-  
+
 }
 .a3librarycopy .group3 .shellfooter .u6caaicpu590709046015u53f72 .span2 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a3librarycopy .group3 .shellfooter .u6caaicpu590709046015u53f72 .span3 {
-  
+
 }
 .a3librarycopy .group3 .shellfooter .u6caaicpu590709046015u53f72 .span4 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a3librarycopy .group3 .shellfooter .u6caaicpu590709046015u53f72 .span5 {
-  
+
 }
 .a3librarycopy .group3 .shellfooter .u6caaicpu590709046015u53f72 .span6 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
@@ -1816,56 +1829,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

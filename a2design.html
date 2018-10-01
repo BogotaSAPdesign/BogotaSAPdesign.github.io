@@ -147,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="group14">
+                <div class="group14" id="myHeader">
                     <img anima-src="./img/2-design-rectangle-6.png" class="rectangle6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="fiorifundamentalscopy">
                         Fiori Fundamentals
@@ -497,6 +497,29 @@
                     }
                 }
             };
+
+            // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+
+
+
             anima_loadAsyncSrc = function(tag) {
                 anima_loadAsyncSrcForTag("img");
                 anima_loadAsyncSrcForTag("iframe");

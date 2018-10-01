@@ -21,6 +21,16 @@
   src: url('../fonts/72-Italic.ttf') format("truetype");
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.hide{
+   opacity: 0;
+}
+
 .a3library {
   width               : 100%;
   min-width           : 1440px;
@@ -1532,7 +1542,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28px;
   height              : auto;
-  width               : auto;
+  width               :200px;
   position            : absolute;
   margin              : 0;
   left                : 35px;
@@ -1545,8 +1555,20 @@ div {
   text-align          : left;
   line-height         : 28.0px;
 }
+
+.a3library .group14 {
+position: fixed;
+
+}
+
+.a3library .group14 .group2 {
+position: absolute;
+
+}
+
+
 .a3library .group14 .sapfioridesign .span1 {
-  
+
 }
 .a3library .group14 .sapfioridesign .span2 {
   font-family         : "72-Light", Helvetica, Arial, serif;
@@ -1669,19 +1691,19 @@ div {
   line-height         : 22.0px;
 }
 .a3library .group3 .shellfooter .u6caaicpu590709046015u53f72 .span1 {
-  
+
 }
 .a3library .group3 .shellfooter .u6caaicpu590709046015u53f72 .span2 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a3library .group3 .shellfooter .u6caaicpu590709046015u53f72 .span3 {
-  
+
 }
 .a3library .group3 .shellfooter .u6caaicpu590709046015u53f72 .span4 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a3library .group3 .shellfooter .u6caaicpu590709046015u53f72 .span5 {
-  
+
 }
 .a3library .group3 .shellfooter .u6caaicpu590709046015u53f72 .span6 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
@@ -1816,56 +1838,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

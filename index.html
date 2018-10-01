@@ -199,7 +199,7 @@
                     <div class="rectangle15">
                     </div>
                 </div>
-                <div class="group14">
+                <div class="group14" id="myHeader">
                     <div class="group2copy">
                         <div class="rectangle13">
                         </div>
@@ -214,7 +214,7 @@
                     </div>
                     <div class="rectangle5">
                     </div>
-                    <div class="sapfioridesign">
+                    <div class="sapfioridesign ">
                         <span class="span1">SAP Fiori </span><span class="span2">Design</span>
                     </div>
                     <a href="a2design.html">
@@ -295,6 +295,27 @@
                 } while (e);
                 return top;
             };
+
+            // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+
             anima_loadAsyncSrc();
             anima_old_onResize = window.onresize;
             anima_new_onResize = undefined;

@@ -21,6 +21,11 @@
   src: url('../fonts/72-Italic.ttf') format("truetype");
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
 .a2design {
   width               : 100%;
   min-width           : 1440px;
@@ -903,12 +908,12 @@ div {
   top                 : 0px;
   height              : 151px;
   width               : 1440px;
-  position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  z-index: 1;
 }
 .a2design .group14 .rectangle6 {
   background-color    : rgba(255,255,255,0.0);

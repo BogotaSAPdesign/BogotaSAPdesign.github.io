@@ -69,6 +69,9 @@
                         72
                     </div>
                 </div>
+
+
+                <div id="myHeader">
                 <img anima-src="./img/3-develop-rectangle-6.png" class="rectangle6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="fiorifundamentalscopy">
                     Fiori Fundamentals
@@ -114,6 +117,13 @@
                 <div class="develop">
                     Develop
                 </div>
+
+        </div>
+
+
+
+
+
                 <div class="rectangle17">
                 </div>
                 <div class="modal">
@@ -140,7 +150,7 @@
                 <div class="themeparametertool">
                     Guides
                 </div>
-                <a href="a3librarycopy.html">
+                <a href="a3library2.html">
                     <div class="library">
                         library.
                     </div>
@@ -433,6 +443,28 @@ Build modern user experiences for products with the SAP look and feel using reso
                 } while (e);
                 return top;
             };
+
+            // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+
+
             anima_loadAsyncSrc();
             anima_old_onResize = window.onresize;
             anima_new_onResize = undefined;
