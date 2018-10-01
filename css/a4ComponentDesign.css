@@ -9864,7 +9864,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 83px;
-  width               : 1440px;
+  width               : 100%;
   position            : fixed;
   margin              : 0;
   left                : 0px;
@@ -9949,7 +9949,7 @@ div {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 0px;
   height              : 83px;
-  width               : 1440px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
