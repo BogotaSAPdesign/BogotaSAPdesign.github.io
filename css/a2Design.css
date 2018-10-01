@@ -1313,6 +1313,12 @@ div {
   text-align          : left;
   line-height         : 69.0px;
 }
+
+.a2design .group5 .library:hover{
+  color               : rgba(95, 168, 239, 1.0);
+}
+
+
 .a2design .group5 .linecopy21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;

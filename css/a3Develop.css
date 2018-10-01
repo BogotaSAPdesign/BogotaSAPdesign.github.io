@@ -607,7 +607,7 @@ div {
   line-height         : 28.0px;
 }
 .a3develop .sapfioridesign .span1 {
-  
+
 }
 .a3develop .sapfioridesign .span2 {
   font-family         : "72-Light", Helvetica, Arial, serif;
@@ -828,6 +828,14 @@ div {
   text-align          : left;
   line-height         : 69.0px;
 }
+
+
+.a3develop .library:hover{
+  color               : rgba(95, 168, 239, 1.0);
+}
+
+
+
 .a3develop .linecopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1931px;
@@ -973,7 +981,7 @@ div {
 }
 .a3develop .turndesignsintore {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2214px;
+  top                 : 2170px;
   height              : auto;
   width               : 250px;
   position            : absolute;
@@ -2355,19 +2363,19 @@ div {
   line-height         : 22.0px;
 }
 .a3develop .group3copy .shellfooter .u6caaicpu590709046015u53f72 .span1 {
-  
+
 }
 .a3develop .group3copy .shellfooter .u6caaicpu590709046015u53f72 .span2 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a3develop .group3copy .shellfooter .u6caaicpu590709046015u53f72 .span3 {
-  
+
 }
 .a3develop .group3copy .shellfooter .u6caaicpu590709046015u53f72 .span4 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
 }
 .a3develop .group3copy .shellfooter .u6caaicpu590709046015u53f72 .span5 {
-  
+
 }
 .a3develop .group3copy .shellfooter .u6caaicpu590709046015u53f72 .span6 {
   font-family         : "72-Regular", Helvetica, Arial, serif;
@@ -2472,7 +2480,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "72-Bold", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(212, 210, 210, 1.0);
+  color               : rgba(100, 100, 100, 1.0);
   text-align          : left;
   line-height         : 18.0px;
 }
@@ -2494,7 +2502,7 @@ div {
   line-height         : 80.0px;
 }
 .a3develop .developwithfiorif .span1 {
-  
+
 }
 .a3develop .developwithfiorif .span2 {
   font-family         : "72-Light", Helvetica, Arial, serif;
@@ -2784,7 +2792,7 @@ div {
   line-height         : 41.0px;
 }
 .a3develop .group2copy2 .group2copy21 .fooincludefdt .span1 {
-  
+
 }
 .a3develop .group2copy2 .group2copy21 .fooincludefdt .span2 {
   color               : rgba(204, 204, 204, 1.0);
@@ -2947,56 +2955,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
